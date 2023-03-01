@@ -1,0 +1,30 @@
+.flex-container {
+    display: flex;
+    background-color: aqua;
+    flex-direction: column;
+}
+
+.flex-container>div {
+    background-color: blue;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+}
+
+#div1 {
+    background-color: silver;
+}
+
+#div2 {
+    background-color: gold;
+}
+
+#div3 {
+    background-color: red;
+}
+
+#div4 {
+    background-color: green;
+}
